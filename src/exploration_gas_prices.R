@@ -2,6 +2,10 @@ library(dplyr)
 library(readxl)
 library(ggplot2)
 library(lubridate)
+library(plotly)
+library(scales)
+library(htmlwidgets)
+
 
 data_dir <- file.path("data")
 
@@ -16,7 +20,8 @@ gas_prices_data <- read_excel(
 colnames(gas_prices_data) <- c("date","sap","rolling_avg_sap")
 
 plot_gas_prices_data <- function(data, title_text="The system average gas price") {
-  data %>%
+  chart <- data %>% 
+  mutate(date = as.Date(date)) %>%
   ggplot() +
   geom_line(mapping = aes(
     x = date,
@@ -28,27 +33,41 @@ plot_gas_prices_data <- function(data, title_text="The system average gas price"
     y = rolling_avg_sap,
     alpha = 1
   )) +
-  theme(panel.grid.major.x = element_blank()) + # removing gridlines
+  scale_x_date(date_breaks = "3 months" , date_labels = "%b-%y") +
+  theme(panel.grid.major.x = element_blank(),
+        axis.text.x=element_text(angle=45,hjust=1)
+        ) +
   labs(
     title = title_text,
     caption = "Source: ONS/National Grid",
     x = "Date",
     y = "Price of gas (p/kWh)"
   )
+  m<-ggplotly(chart)
+  saveWidget(m, "p1.html")
 }
 
 plot_gas_prices_data(gas_prices_data)
 
-gas_prices_data_2022 <- gas_prices_data %>%
-  filter(as.Date(date) >= as.Date("2022-01-01"))
+gas_prices_data_recent <- gas_prices_data %>%
+  filter(as.Date(date) >= as.Date("2021-01-01"))
 
-plot_gas_prices_data(gas_prices_data_2022, "The system average gas price over 2022")
+plot_gas_prices_data(gas_prices_data_recent, "The system average gas price sincde 2021")
 
 gas_prices_data_pre2022 <- gas_prices_data %>%
   filter(as.Date(date) < as.Date("2022-01-01"))
 
 latest_date_in_data <- max(gas_prices_data$date)
 six_months_prior <- latest_date_in_data %m-% months(6)
+twelve_months_prior <- latest_date_in_data %m-% months(12)
+twentyfour_months_prior <- latest_date_in_data %m-% months(24)
+
+
+gas_price_twelve_months_prior <- gas_prices_data %>%
+  filter(date==twelve_months_prior)
+gas_price_two_years_prior <- gas_prices_data %>%
+  filter(date==twentyfour_months_prior)
+
 gas_prices_data_last_six_months <- gas_prices_data %>%
   filter(as.Date(date) >= six_months_prior)
 
@@ -89,3 +108,4 @@ gas_prices_grouped_by_month %>%
   filter(!month %in% c(11,12,1,2,3)) %>%
   group_by(year) %>%
   summarise(avg_price = mean(sap))
+
