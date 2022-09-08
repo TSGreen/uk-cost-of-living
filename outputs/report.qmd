@@ -1,0 +1,60 @@
+---
+title: "UK cost of living"
+author: "TSGreen"
+format: html
+editor: visual
+---
+
+## The rising price of energy and its impact on household cost of living
+
+NOTES:
+
+-   Policy recommendations to protect households from the rising cost of living due to energy price increases. To include:
+
+-   Changes in gas price
+
+-   Impact of energy prices on CPI - comparative chart of percentage change in pricing of different product cats - mention knock on effect of rising costs elsewhere with sources
+
+-   Household finances stats - how much people spent on energy in 2021 compared to now and with next cap starting from Oct 2022.
+
+-   Wage changes: The three-month average real-time pay as of June 2022 was a 2.5% reduction in pay. ([ONS](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/timeseries/a3ww/lms))
+
+-   impact of energy cap - projected CPI with new cap forecast and household spending
+
+## Main Points
+
+
+## Gas Prices
+
+The price of natural gas a risen sharply over the last 18 months. As @fig-gas2018 and shows, prices have risen from an average value in the UK market in the week leading to 28/08/2020 of 0.76 p/kWh to 3.75 p/kWh for the same period of 2021 to 16.75 p/kWh in the same period of 2022.
+
+According to the [BBC](https://www.bbc.co.uk/news/explainers-62644537) the resurgence of global economic activity in the recovery of the COVID-19 pandemic lead to a sharp increase in the demand of natural gas causing prices to rise and the geopolitical fallout of the Russian invasion of Ukraine in February 2022 exasperated this further (with Russia being the largest exported of gas in the world).
+
+![Gas prices from 2018 onward](gas_prices_2018.png){#fig-gas2018 fig-alt="The system average price of gas since 2018, showing a steep increase from around mid-2021. The typical price increases from less than 2 pence per kilo watt hour to 16 currently."}
+
+The average market price of gas from the start of 2018 to the end of 2020 was 1.4 p/kWh, whereas in the over the period of 28 July 2022 to 28 August 2022 this averaged at 12.2 p/kWh - an increase of 890%.
+
+## Household Gas Prices
+
+The price of gas (and electricity) that households pay is controlled the [OFGEM price cap](https://www.ofgem.gov.uk/information-consumers/energy-advice-households/check-if-energy-price-cap-affects-you). This sets an upper limit on the amount that energy suppliers are allowed to charge households per unit of fuel. Since the surge in wholesale market prices of gas, the default tariffs charged by energy suppliers have been inline with this maximum permitted charge.
+
+The current price cap, which has been in effect since 1 April 2022, fixes the price of gas at 7 p/kWh and electricity at 28 p/kWh. As can be seen in @fig-gas2021, this has insulated households from the worst of the increase in market prices for the previous several months where in gas prices have averaged 7.5 p/kWh over the last six months, 12.2 p/kWh over the last month and at the time of writing are \>16 p/kWh.
+
+![Gas prices from 2021 onward](gas_prices_2021.png){#fig-gas2021 fig-alt="The system average price of gas since 2021, showing a steep increase from around mid-2021. The typical price increases from less than 2 pence per kilo watt hour to 16 currently."}
+
+However, the price cap has been announced to be rising to 15 p/kWh for gas and 52 p/kWh from 1 October 2022. This marks a substantial increase in the cost of household energy of nearly 80% from what is a comparatively high cost already (compared to the average market unit price of gas of 1.4 p/kWh in years 2018 to 2020).
+
+## Inflation
+
+The rising price of energy has been a key driver in the rise of inflation. In the UK, the official measure of price inflation is the Consumer Price Index with Housing (CPIH). This measures the change in price of common consumer goods and services and weighs the relative impact of each price change by the typical proportion of total expenditure spent on each good/service.
+
+![Inflationary changes by different categories of goods and services](indices_change.png){#fig-inflation}
+
+As @fig-inflation shows, the typical annual percentage change in the prices of goods and services has been creeping up, with an overall annual rate increase of 8.8 % for July 2022. Breaking down by sectors this shows inflation is primarily driven by price changes in transport (with a 15.1 % annual cost increase), food (with a 12.7 % increase) and housing costs (which is includes household energy bills, with a 9.1 % increase). The most stark increase however is visible when you plot the annual price changes for energy as separate goods/services with the price of household gas having increased by 96% in July 2022 from a year earlier.
+
+The reason the rise of energy prices do not more strongly contribute to the inflation rate (with a current annual inflation rate of 1.87 percentage points from electricity, gas and other fuels in total according to the [ONS](https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/july2022)) is that energy is only weighted with less than three per cent of a typical consumers expenditure, largely reflecting spending habits from before prices soared.
+
+## Household finances and energy
+
+\
+

@@ -1,6 +1,7 @@
 # Project specific files
 data/*
 outputs/*
+!outputs/report.qmd
 
 # R project files
 *.Rproj
