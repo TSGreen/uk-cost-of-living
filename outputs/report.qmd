@@ -68,10 +68,29 @@ These estimates should be used with caution and are intended as illustrative rat
 
 ## Public opinion
 
-The latest [Public opinions and social trends: household finances](https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/publicopinionsandsocialtrendsgreatbritainhouseholdfinances) data show the vast majority of the general public have concerns with rising cost of living. 
+The latest [Public opinions and social trends: household finances](https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/publicopinionsandsocialtrendsgreatbritainhouseholdfinances) data (covering 17 to 29 August 2022) show the vast majority of the general public have concerns with rising cost of living. 
+
+91 per cent of responds said their cost of living had increased, of which 79 per cent said their gas or electricity bills had increased. This is less than the 96 per cent of respondents who said they the price of their food bill had increased. However, when asked which price increase that were most worried about, 62 per cent responded with the energy pricing compared to 18 per cent who said food pricing concerned them the most. 
+
+The full table is presented below.
+
+```{r}
+#| echo: false
+library(readxl)
+
+data <- gas_prices_data <- read_excel(
+  file.path("..", "data", "householdfinances17to29august2022.xlsx"),
+  sheet = "2", range="A14:H35")
+library(knitr)
+library(kableExtra)
+
+options(knitr.kable.NA = '')
 
 
-
+data %>%
+  kbl() %>%
+  kable_paper("hover", full_width = F)
+```
 
 
 
