@@ -52,9 +52,28 @@ The rising price of energy has been a key driver in the rise of inflation. In th
 
 As @fig-inflation shows, the typical annual percentage change in the prices of goods and services has been creeping up, with an overall annual rate increase of 8.8 % for July 2022. Breaking down by sectors this shows inflation is primarily driven by price changes in transport (with a 15.1 % annual cost increase), food (with a 12.7 % increase) and housing costs (which is includes household energy bills, with a 9.1 % increase). The most stark increase however is visible when you plot the annual price changes for energy as separate goods/services with the price of household gas having increased by 96% in July 2022 from a year earlier.
 
-The reason the rise of energy prices do not more strongly contribute to the inflation rate (with a current annual inflation rate of 1.87 percentage points from electricity, gas and other fuels in total according to the [ONS](https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/july2022)) is that energy is only weighted with less than three per cent of a typical consumers expenditure, largely reflecting spending habits from before prices soared.
+The reason the rise of energy prices do not more strongly contribute to the inflation rate (with a current annual inflation rate of 1.87 percentage points from electricity, gas and other fuels in total according to the [ONS](https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/july2022)) is that energy is only weighted with less than three per cent of a typical consumers expenditure, reflecting spending habits from 2021 before prices soared.
 
-## Household finances and energy
+## Household finances and energy costs
 
-\
+A study by ONS explored [family spending in the UK](https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/datasets/familyspendingworkbook1detailedexpenditureandtrends) up to March 2021. This showed that in the financial year ending 2021, the average household spent 4.8% of its expenditure on energy. 
+
+It also revealed this proportion is not uniform across income thresholds but rather lower income households spent a higher proportion of their income on energy. The lowest 10 per cent of households by income spent on average 8.3 per cent of their total expenditure on energy compared to 3.3 per cent in the top 10 per cent of households by income.
+
+A very simplistic analysis, taking the typical family household expenditure on energy in the financial year ending in 2021 and inflating this by the 70% price increase from July 2021 to July 2022 from the CPIH figures and assuming a 5.1 % increase in total household expenditure (inline with the [5.1 % year-on-year three month average wage growth reported in June 2022](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/timeseries/kac3/lms)) gives revised estimates of households currently spending on average 8.6% of total expenditure on energy. For the lowest house income decile this would be 14% compared to 6% for the highest household income decile. 
+
+Assuming an additional rise in household energy spending of 80%, inline with the expected rise in Ofgem price cap prices, could mean from October 2022 average households may be spending as much as 15% of their total expenditure on energy. For the lowest income decile households this could be as much as 25% of total expenditure compared to 11% for the highest income decile households. 
+
+These estimates should be used with caution and are intended as illustrative rather than scientific. With that said, they represent a significant increase from the average of approximately 5% spent on energy during 2021. This particualrly concerning when coupled with the general increase in prices for other goods and services that are expected as [businesses pass on their increased costs of energy](https://www.bbc.co.uk/news/business-62813782) (which are not protected by the Ofgem price cap) to consumers. 
+
+## Public opinion
+
+The latest [Public opinions and social trends: household finances](https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/publicopinionsandsocialtrendsgreatbritainhouseholdfinances) data show the vast majority of the general public have concerns with rising cost of living. 
+
+
+
+
+
+
+
 
