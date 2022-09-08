@@ -50,7 +50,7 @@ The rising price of energy has been a key driver in the rise of inflation. In th
 
 ![Inflationary changes by different categories of goods and services](indices_change.png){#fig-inflation}
 
-As @fig-inflation shows, the typical annual percentage change in the prices of goods and services has been creeping up, with an overall annual rate increase of 8.8 % for July 2022. Breaking down by sectors this shows inflation is primarily driven by price changes in transport (with a 15.1 % annual cost increase), food (with a 12.7 % increase) and housing costs (which is includes household energy bills, with a 9.1 % increase). The most stark increase however is visible when you plot the annual price changes for energy as separate goods/services with the price of household gas having increased by 96% in July 2022 from a year earlier.
+As @fig-inflation shows, the typical annual percentage change in the prices of goods and services has been creeping up, with an overall annual rate increase of 8.8% for July 2022. Breaking down by sectors this shows inflation is primarily driven by price changes in transport (with a 15.1% annual cost increase), food (with a 12.7% increase) and housing costs (which is includes household energy bills, with a 9.1% increase). The most stark increase however is visible when you plot the annual price changes for energy as separate goods/services with the price of household gas having increased by 96% in July 2022 from a year earlier.
 
 The reason the rise of energy prices do not more strongly contribute to the inflation rate (with a current annual inflation rate of 1.87 percentage points from electricity, gas and other fuels in total according to the [ONS](https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/july2022)) is that energy is only weighted with less than three per cent of a typical consumers expenditure, reflecting spending habits from 2021 before prices soared.
 
@@ -72,10 +72,12 @@ The latest [Public opinions and social trends: household finances](https://www.o
 
 91 per cent of responds said their cost of living had increased, of which 79 per cent said their gas or electricity bills had increased. This is less than the 96 per cent of respondents who said they the price of their food bill had increased. However, when asked which price increase that were most worried about, 62 per cent responded with the energy pricing compared to 18 per cent who said food pricing concerned them the most. 
 
-The full table is presented below.
+The full table is presented below in @tbl-cost-living.
 
 ```{r}
 #| echo: false
+#| label: tbl-cost-living
+#| tbl-cap: Table of responses to opinion surveys on cost of living
 library(readxl)
 
 data <- gas_prices_data <- read_excel(
@@ -86,10 +88,10 @@ library(kableExtra)
 
 options(knitr.kable.NA = '')
 
-
 data %>%
   kbl() %>%
   kable_paper("hover", full_width = F)
+
 ```
 
 
