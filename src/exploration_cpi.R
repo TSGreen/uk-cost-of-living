@@ -4,6 +4,8 @@ library(ggplot2)
 library(lubridate)
 library(tidyverse)
 library(janitor)
+library(svglite)
+library(RColorBrewer)
 
 data_dir <- file.path("data")
 
@@ -36,7 +38,7 @@ new_names <- as.character(c(seq(ymd('2021-07-01'),ymd('2022-07-01'), by = '1 mon
 cpih_data_pc_change <- cpih_data_pc_change %>% 
   rename_at(vars(column_headers_to_change), ~new_names)
 
-coicop_codes_of_interest <- c(cpih_annual_average_changes$product_desc[47:49], cpih_annual_average_changes$product_desc[1:15])
+coicop_codes_of_interest <- c(cpih_data_pc_change$product_desc[118:120], cpih_data_pc_change$product_desc[1:15])
 
 cpih_pc_change_selection <- cpih_data_pc_change %>%
   filter(product_desc %in% coicop_codes_of_interest)
@@ -45,23 +47,31 @@ price_changes_by_category <- cpih_pc_change_selection %>%
   select(-product_id) %>%
   pivot_longer(-product_desc, names_to = "date", values_to = "percentage_change")
 
+mycolors <-  c(
+  RColorBrewer::brewer.pal(12,'Paired'),
+  RColorBrewer::brewer.pal(12,'Set3')
+)
 
-price_changes_by_category %>% 
-  mutate(date=as.Date(date), percentage_change=as.numeric(percentage_change) ) %>%
+indices_plot <- price_changes_by_category %>% 
+  mutate(date=as.Date(date), percentage_change=as.numeric(percentage_change), Sector=product_desc ) %>%
   ggplot() +
   geom_line(mapping = aes(
     x = date,
     y = percentage_change,
-    colour = product_desc
-  )) +
-  #scale_x_date(date_breaks = "months" , date_labels = "%b-%y") +
+    colour = Sector
+  ), lwd=1.4) +
+  scale_y_continuous(breaks = scales::pretty_breaks(n = 10)) +
+  scale_x_date(date_breaks = "months" , date_labels = "%b-%y") +
   theme(panel.grid.major.x = element_blank(),
         axis.text.x=element_text(angle=45,hjust=1)
   ) +
+  #scale_color_brewer(palette = "Paired") +
+  scale_color_manual(values = mycolors) +
   labs(
-    title = "Percentage change in price over last 13 months, by expenses category type",
+    title = "Annual percentage change in index, by expenses category type over last 13 months.",
     caption = "Source: ONS",
     x = "Date",
-    y = "Percentage change in price"
+    y = "Percentage change in index"
   )
-
+indices_plot
+ggsave(file="outputs/indices_change.png", plot=indices_plot, width=16, height=8)
