@@ -1,76 +1,63 @@
----
-title: "UK cost of living"
-author: "TSGreen"
-format: html
-editor: visual
----
-
 ## The rising price of energy and its impact on household cost of living
 
-NOTES:
+## Main points
 
--   Policy recommendations to protect households from the rising cost of living due to energy price increases. To include:
+(Note this document was prepared largely prior to the [Government announcement of plans to fix the price cap at an average of £2500 per year](https://www.bbc.co.uk/news/business-62831698) and reflects the changes expected under the planned changes to the Ofgem price cap which were due to take effect from 1 October 2022.)
 
--   Changes in gas price
-
--   Impact of energy prices on CPI - comparative chart of percentage change in pricing of different product cats - mention knock on effect of rising costs elsewhere with sources
-
--   Household finances stats - how much people spent on energy in 2021 compared to now and with next cap starting from Oct 2022.
-
--   Wage changes: The three-month average real-time pay as of June 2022 was a 2.5% reduction in pay. ([ONS](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/timeseries/a3ww/lms))
-
--   impact of energy cap - projected CPI with new cap forecast and household spending
-
-## Main Points
-
+-   Wholesale gas prices have risen sharply in recent months. The average price over the month of August 2022 was 12.2 p/kWh, nearly nine times higher than the average price of 1.4 p/kWh from the start of 2018 to the end of 2020.
+-   Households energy prices have been somewhat protected from these price increases by the Ofgem price cap, but have still faced an increase in energy prices of 76% from July 2021 to July 2022, according to the ONS' consumer price index data, with prices expected to rise by a further 80% from October 2022 as a new Ofgem price cap comes into effect.
+-   These past increases in household energy costs have contributed 1.9 percentage points to inflation and may have increased the proportion of a family's typical household expenditure on energy, from 4.8% in the financial year ending 2021, to an estimated 8.6% in summer 2022. Lower income households are disproportionately impacted with estimates that, an average, 14% of their total expenditure is spent on energy for the lowest decile of households by income.
+-   With the expected 80% rise in energy prices from October 2022, this could increase inflation by an additional 1.5% and could mean a typical household spends 15% of its expenditure on energy. For the lowest decile of households by income, energy could represent an average of 25% of their total expenditure.
+-   Surveys of public opinion show 91% of respondents have experienced increased cost of living, with 71% reporting a rise in their energy costs. The majority (62%) of those experiencing increases in cost of living say the rise of energy prices is what concerns them most.
+-   In order to reduce the harm to household finances further additional intervention in controlling household energy bills is suggested. This could take the form of freezing the energy price cap at a level lower than the planned October 2022 Ofgem cap level, to reduce the projected impacts to inflation and household expenditure outlined here. However, even with this in place, additional targeted support for lower income households may be needed to address the disproportionate impact that households of different incomes are already facing.
 
 ## Gas Prices
 
-The price of natural gas a risen sharply over the last 18 months. As @fig-gas2018 and shows, prices have risen from an average value in the UK market in the week leading to 28/08/2020 of 0.76 p/kWh to 3.75 p/kWh for the same period of 2021 to 16.75 p/kWh in the same period of 2022.
+The price of natural gas a risen sharply over the last 18 months. As @fig-gas2018 shows, the average price of gas in the UK wholesale market have risen from 0.76 p/kWh, in the week leading to 28/08/2020, to 3.75 p/kWh for the same period of 2021, to 16.75 p/kWh for the same period of 2022.
 
-According to the [BBC](https://www.bbc.co.uk/news/explainers-62644537) the resurgence of global economic activity in the recovery of the COVID-19 pandemic lead to a sharp increase in the demand of natural gas causing prices to rise and the geopolitical fallout of the Russian invasion of Ukraine in February 2022 exasperated this further (with Russia being the largest exported of gas in the world).
+According to the [BBC](https://www.bbc.co.uk/news/explainers-62644537) the resurgence of global economic activity in the recovery of the COVID-19 pandemic lead to a sharp increase in the demand of natural gas causing prices to rise. The geopolitical fallout of the Russian invasion of Ukraine in February 2022 exasperated this further (with Russia being the largest exported of gas in the world).
 
-![Gas prices from 2018 onward](gas_prices_2018.png){#fig-gas2018 fig-alt="The system average price of gas since 2018, showing a steep increase from around mid-2021. The typical price increases from less than 2 pence per kilo watt hour to 16 currently."}
+![Wholesale market gas prices per unit from 2018 onward.](gas_prices_2018.png){#fig-gas2018 fig-alt="The system average price of gas since 2018, showing a steep increase from around mid-2021. The typical price increases from less than 2 pence per kilo watt hour to 16 currently."}
 
 The average market price of gas from the start of 2018 to the end of 2020 was 1.4 p/kWh, whereas in the over the period of 28 July 2022 to 28 August 2022 this averaged at 12.2 p/kWh - an increase of 890%.
 
 ## Household Gas Prices
 
-The price of gas (and electricity) that households pay is controlled the [OFGEM price cap](https://www.ofgem.gov.uk/information-consumers/energy-advice-households/check-if-energy-price-cap-affects-you). This sets an upper limit on the amount that energy suppliers are allowed to charge households per unit of fuel. Since the surge in wholesale market prices of gas, the default tariffs charged by energy suppliers have been inline with this maximum permitted charge.
+The price of gas (and electricity) that households pay is controlled the [Ofgem price cap](https://www.ofgem.gov.uk/information-consumers/energy-advice-households/check-if-energy-price-cap-affects-you). This sets an upper limit on the amount that energy suppliers are allowed to charge households per unit of fuel on their default tariffs. Since the surge in wholesale market prices of gas, the default tariffs charged by energy suppliers have broadly been these maximum permitted charge.
 
-The current price cap, which has been in effect since 1 April 2022, fixes the price of gas at 7 p/kWh and electricity at 28 p/kWh. As can be seen in @fig-gas2021, this has insulated households from the worst of the increase in market prices for the previous several months where in gas prices have averaged 7.5 p/kWh over the last six months, 12.2 p/kWh over the last month and at the time of writing are \>16 p/kWh.
+The current price cap, which has been in effect since 1 April 2022, fixes the price of gas at 7 p/kWh and electricity at 28 p/kWh. As can be seen in @fig-gas2021, this has insulated households from the worst of the increase in market prices for the previous several months, when gas prices have averaged 7.5 p/kWh over the last six months, 12.2 p/kWh over the last month and, at the time of writing, are over 16 p/kWh.
 
-![Gas prices from 2021 onward](gas_prices_2021.png){#fig-gas2021 fig-alt="The system average price of gas since 2021, showing a steep increase from around mid-2021. The typical price increases from less than 2 pence per kilo watt hour to 16 currently."}
+![Wholesale market gas prices per unit from 2021 onward. The blue dashed line shows the Ofgem price cap that limits the maximum households can be charged for energy during the period from 1 April to 1 October 2022.](gas_prices_2021.png){#fig-gas2021 fig-alt="The system average price of gas since 2021, showing a steep increase from around mid-2021. The typical price increases from less than 2 pence per kilo watt hour to 16 currently."}
 
-However, the price cap has been announced to be rising to 15 p/kWh for gas and 52 p/kWh from 1 October 2022. This marks a substantial increase in the cost of household energy of nearly 80% from what is a comparatively high cost already (compared to the average market unit price of gas of 1.4 p/kWh in years 2018 to 2020).
+However, the price cap has been announced to be rising to 15 p/kWh for gas and 52 p/kWh from 1 October 2022. This marks a substantial increase of nearly 80% in the cost of household energy, from what is a comparatively high cost already (compared to the average market unit price of gas of 1.4 p/kWh in years 2018 to 2020).
 
 ## Inflation
 
-The rising price of energy has been a key driver in the rise of inflation. In the UK, the official measure of price inflation is the Consumer Price Index with Housing (CPIH). This measures the change in price of common consumer goods and services and weighs the relative impact of each price change by the typical proportion of total expenditure spent on each good/service.
+The rising price of energy has been a key driver in the rise of inflation. In the UK, the official measure of price inflation is the Consumer Price Index with Housing (CPIH). This measures the change in price of common consumer goods and services. It weighs the relative impact of the price change of each product/service by the typical proportion of total expenditure spent on each product/service.
 
-![Inflationary changes by different categories of goods and services](indices_change.png){#fig-inflation}
+![Annual percentage change in price by different categories of goods and services.](indices_change.png){#fig-inflation}
 
-As @fig-inflation shows, the typical annual percentage change in the prices of goods and services has been creeping up, with an overall annual rate increase of 8.8% for July 2022. Breaking down by sectors this shows inflation is primarily driven by price changes in transport (with a 15.1% annual cost increase), food (with a 12.7% increase) and housing costs (which is includes household energy bills, with a 9.1% increase). The most stark increase however is visible when you plot the annual price changes for energy as separate goods/services with the price of household gas having increased by 96% in July 2022 from a year earlier.
+As @fig-inflation shows, the typical annual percentage change in the prices of goods and services has been creeping up, with an overall annual inflation rate increase of 8.8% for July 2022. Breaking down by sectors this shows inflation is primarily driven by price changes in transport (with a 15.1% annual cost increase), food (with a 12.7% increase) and housing costs (which is includes household energy bills, with a 9.1% increase). The most stark increase however is visible when you plot the annual price changes for energy as separate goods/services. The price of household gas having increased by 96% in July 2022 from a year earlier.
 
-The reason the rise of energy prices do not more strongly contribute to the inflation rate (with a current annual inflation rate of 1.87 percentage points from electricity, gas and other fuels in total according to the [ONS](https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/july2022)) is that energy is only weighted with less than three per cent of a typical consumers expenditure, reflecting spending habits from 2021 before prices soared.
+According to the [ONS](https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/july2022) electricity, gas and other fuels contribute 1.87 percentage points to the current annual inflation rate. Should the 80% household energy price rise go ahead under the new Ofgem cap then a (simplistic) analysis suggests this could increase inflation by an additional 1.5%. The reason the rise of energy prices do not more strongly contribute to the inflation rate is that energy is currently weighted with less than three per cent of a typical consumer's expenditure, reflecting spending habits from 2021 before prices soared.
 
 ## Household finances and energy costs
 
-A study by ONS explored [family spending in the UK](https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/datasets/familyspendingworkbook1detailedexpenditureandtrends) up to March 2021. This showed that in the financial year ending 2021, the average household spent 4.8% of its expenditure on energy. 
+A study by ONS explored [family spending in the UK](https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/datasets/familyspendingworkbook1detailedexpenditureandtrends) up to March 2021. This showed that in the financial year ending 2021, the average household spent 4.8% of its expenditure on energy.
 
-It also revealed this proportion is not uniform across income thresholds but rather lower income households spent a higher proportion of their income on energy. The lowest 10 per cent of households by income spent on average 8.3 per cent of their total expenditure on energy compared to 3.3 per cent in the top 10 per cent of households by income.
+It also revealed this proportion is not uniform across income thresholds, but that lower income households spent a higher proportion of their income on energy. The lowest 10% of households by income spent on average 8.3% of their total expenditure on energy compared to 3.3% in the top 10% of households by income during this period.
 
-A very simplistic analysis, taking the typical family household expenditure on energy in the financial year ending in 2021 and inflating this by the 70% price increase from July 2021 to July 2022 from the CPIH figures and assuming a 5.1 % increase in total household expenditure (inline with the [5.1 % year-on-year three month average wage growth reported in June 2022](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/timeseries/kac3/lms)) gives revised estimates of households currently spending on average 8.6% of total expenditure on energy. For the lowest house income decile this would be 14% compared to 6% for the highest household income decile. 
+A very simplistic analysis, taking the typical family household expenditure on energy in the financial year ending in 2021 and inflating this by the 70% price increase from July 2021 to July 2022 from the CPIH figures, and assuming a 5.1% increase in total household expenditure (inline with the [5.1% year-on-year three month average wage growth reported in June 2022](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/timeseries/kac3/lms)), gives revised estimates of families currently spending on, average, 8.6% of their total expenditure on energy. For the lowest house income decile, this would be 14%, compared to 6% for the highest household income decile.
 
-Assuming an additional rise in household energy spending of 80%, inline with the expected rise in Ofgem price cap prices, could mean from October 2022 average households may be spending as much as 15% of their total expenditure on energy. For the lowest income decile households this could be as much as 25% of total expenditure compared to 11% for the highest income decile households. 
+Assuming an additional rise in household energy spending of 80%, inline with the expected rise in Ofgem price cap prices, could mean from October 2022 average households may be spending on average 15% of their total expenditure on energy. For the lowest income decile households this could be an average as much as 25% of total expenditure, compared to 11% for the highest income decile households.
 
-These estimates should be used with caution and are intended as illustrative rather than scientific. With that said, they represent a significant increase from the average of approximately 5% spent on energy during 2021. This particualrly concerning when coupled with the general increase in prices for other goods and services that are expected as [businesses pass on their increased costs of energy](https://www.bbc.co.uk/news/business-62813782) (which are not protected by the Ofgem price cap) to consumers. 
+These estimates should be used with caution and are intended as illustrative rather than scientific. With that said, they represent a significant increase from the average of approximately 5% spent on energy during 2021. This should be particularly concerning when coupled with the general increase in prices for other goods and services that are expected as [businesses pass on their increased costs of energy](https://www.bbc.co.uk/news/business-62813782) (which are not protected by the Ofgem price cap) to consumers.
 
 ## Public opinion
 
-The latest [Public opinions and social trends: household finances](https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/publicopinionsandsocialtrendsgreatbritainhouseholdfinances) data (covering 17 to 29 August 2022) show the vast majority of the general public have concerns with rising cost of living. 
+The latest [Public opinions and social trends: household finances](https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/publicopinionsandsocialtrendsgreatbritainhouseholdfinances) data (covering 17 to 29 August 2022) show the vast majority of the general public have concerns with rising cost of living.
 
-91 per cent of responds said their cost of living had increased, of which 79 per cent said their gas or electricity bills had increased. This is less than the 96 per cent of respondents who said they the price of their food bill had increased. However, when asked which price increase that were most worried about, 62 per cent responded with the energy pricing compared to 18 per cent who said food pricing concerned them the most. 
+91% of responds said their cost of living had increased, of which 79% reported their gas or electricity bills had increased. While this is less than the 96% of respondents who reported the price of their food bill had increased, when asked which price increase that were most worried about, the majority (62%) responded with the energy. This is compared to 18 per cent who said food price increases concerned them the most.
 
 The full table is presented below in @tbl-cost-living.
 
@@ -94,7 +81,10 @@ data %>%
 
 ```
 
+# Recommendations
 
+Gas prices are still very volatile and are expected to rise further - due to the usual seasonal increase in global demand during the cooler months of October to March in the northern hemisphere, as well as continuing geopolitical events such as the [closure of the Nord Stream 1 gas pipeline](https://www.bbc.co.uk/news/world-europe-60131520).
 
+In order to reduce the harm to household finances further, additional intervention in controlling household energy bills is suggested. This could take the form of freezing the energy price cap at a level lower than the planned October 2022 Ofgem cap level. This would help reduce the projected impacts to inflation and household expenditure outlined above.
 
-
+However, even with this in place, additional targeted support for lower income households may be needed to address the disproportionate impact that households of different incomes are already facing.
