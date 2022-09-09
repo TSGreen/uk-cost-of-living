@@ -67,11 +67,14 @@ indices_plot <- price_changes_by_category %>%
   ) +
   #scale_color_brewer(palette = "Paired") +
   scale_color_manual(values = mycolors) +
+  theme(text = element_text(size = 20)) +
   labs(
-    title = "Annual percentage change in index, by expenses category type over last 13 months.",
+    title = "Year on year change in prices.",
+    subtitle="The annual percentage change in prices, grouped by type of product/service.",
     caption = "Source: ONS",
     x = "Date",
-    y = "Percentage change in index"
+    y = "Annual change in prices (%)"
   )
 indices_plot
 ggsave(file="outputs/indices_change.png", plot=indices_plot, width=16, height=8)
+

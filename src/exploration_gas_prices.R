@@ -32,6 +32,7 @@ plot_gas_prices_data <- function(data, title_text="The system average gas price"
   theme(panel.grid.major.x = element_blank(),
         axis.text.x=element_text(angle=45,hjust=1)
         ) +
+  theme(text = element_text(size = 20)) +
   labs(
     title = title_text,
     subtitle = "The 7-day rolling averaged System Average Price of gas in the UK market",
