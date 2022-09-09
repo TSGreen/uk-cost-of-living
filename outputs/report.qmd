@@ -1,4 +1,13 @@
-## The rising price of energy and its impact on household cost of living
+---
+author: "TSGreen"
+format:
+  html:
+    self-contained: true
+    toc: true
+    toc-location: left
+---
+
+# The rising price of energy and its impact on household cost of living
 
 ## Main points
 
@@ -81,7 +90,7 @@ data %>%
 
 ```
 
-# Recommendations
+## Recommendations
 
 Gas prices are still very volatile and are expected to rise further - due to the usual seasonal increase in global demand during the cooler months of October to March in the northern hemisphere, as well as continuing geopolitical events such as the [closure of the Nord Stream 1 gas pipeline](https://www.bbc.co.uk/news/world-europe-60131520).
 
